@@ -1,0 +1,2 @@
+-c后面是需要在路径，同目录可不带路径
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startup1.json

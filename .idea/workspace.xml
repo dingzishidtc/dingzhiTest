@@ -2,32 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69eb600d-11f5-4747-b1a1-af46bac60376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcode_extentreports_2_41_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvm_testng_extentreport_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_dreamhead_moco_core_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_dreamhead_moco_runner_0_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/bulid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extent/demo/ExtentTestNGiReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extent/demo/TestMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/testne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/junitreports/TEST-com.tester.extent.demo.TestMethodDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/lib/SaxonLiaison.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/lib/saxon-8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/丁枝的接口测试套件/丁枝的测试模块.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/old/我自己的接口测试套件/这是测试模块.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng-results.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/丁枝的接口测试套件/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/丁枝的接口测试套件/丁枝的测试模块.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/丁枝的接口测试套件/丁枝的测试模块.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/我自己的接口测试套件/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/我自己的接口测试套件/这是测试模块.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/我自己的接口测试套件/这是测试模块.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/Chapter7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/moco-runner-0.11.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dingzhiTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dingzhiTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcode_extentreports_2_41_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvm_testng_extentreport_1_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/BasicAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/IgnoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/IgnoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/groups/GroupOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/dingzhi/testng/groups/GroupOnMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/BasicAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/DependTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/ExceptedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/IgnoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/groups/GroupOnMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/groups/GroupsOnClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/groups/GroupsOnClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/groups/GroupsOnClass3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/suit/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/suit/PayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/dingzhi/testng/suit/SuiteConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/Chapter6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +158,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter7" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38505748" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tester.extent.demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files (x86)\Git\workspace\dingzhi\dingzhiTest\Chapter7" />
       <recent name="E:\Program Files (x86)\Git\workspace\dingzhi" />
       <recent name="E:\Program Files (x86)\Git\workspace\dingzhi\dingzhiTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DependTest.test2">
+  <component name="RunManager" selected="TestNG.E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter6/src/main/resources/testne.xml">
     <configuration name="DependTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
@@ -117,6 +197,24 @@
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter6/src/main/resources/testne.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter6" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6/src/main/resources/testne.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,30 +255,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dingzhi.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dingzhi.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.dingzhi.testng.IgnoreTest" />
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.DependTest.test2" />
+      <item itemvalue="TestNG.E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter5/src/main/resources/groupsOnClass.xml" />
+      <item itemvalue="TestNG.E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter6/src/main/resources/testne.xml" />
+      <item itemvalue="TestNG.ExceptedException" />
+      <item itemvalue="TestNG.GroupOnMethod" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter6/src/main/resources/testne.xml" />
         <item itemvalue="TestNG.DependTest.test2" />
         <item itemvalue="TestNG.ExceptedException" />
         <item itemvalue="TestNG.E:/Program Files (x86)/Git/workspace/dingzhi/dingzhiTest/Chapter5/src/main/resources/groupsOnClass.xml" />
         <item itemvalue="TestNG.GroupOnMethod" />
-        <item itemvalue="TestNG.IgnoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,8 +314,18 @@
       <updated>1585999882635</updated>
       <workItem from="1585999886710" duration="11163000" />
       <workItem from="1586087229770" duration="1953000" />
-      <workItem from="1586089243471" duration="6146000" />
+      <workItem from="1586089243471" duration="8394000" />
+      <workItem from="1586109426136" duration="6360000" />
+      <workItem from="1586151558683" duration="5373000" />
     </task>
+    <task id="LOCAL-00001" summary="2020-4-6">
+      <created>1586106880670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586106880670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +333,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2020-4-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-4-6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Inspections" timestamp="1586103697834">
@@ -231,34 +349,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586091076639" />
-    <state x="297" y="211" key="FileChooserDialogImpl" timestamp="1586105111152">
+    <state x="527" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586158369565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="297" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586105111152" />
-    <state width="914" height="408" key="GridCell.Tab.0.bottom" timestamp="1586026931214">
+    <state x="527" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586158369565" />
+    <state x="688" y="387" width="774" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586159911109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="408" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586026931214" />
-    <state width="914" height="408" key="GridCell.Tab.0.center" timestamp="1586026931214">
+    <state x="688" y="387" width="774" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586159911109" />
+    <state x="1167" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586178925790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="408" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586026931214" />
-    <state width="914" height="408" key="GridCell.Tab.0.left" timestamp="1586026931214">
+    <state x="1167" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586178925790" />
+    <state x="493" y="112" key="CommitChangelistDialog2" timestamp="1586106878214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="408" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586026931214" />
-    <state width="914" height="408" key="GridCell.Tab.0.right" timestamp="1586026931214">
+    <state x="493" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586106878214" />
+    <state x="297" y="211" key="FileChooserDialogImpl" timestamp="1586109004699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="408" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586026931214" />
-    <state x="245" y="64" width="1448" height="851" key="SettingsEditor" timestamp="1586105153838">
+    <state x="297" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586109004699" />
+    <state width="914" height="410" key="GridCell.Tab.0.bottom" timestamp="1586179399030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="245" y="64" width="1448" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586105153838" />
-    <state x="502" y="351" key="new project wizard" timestamp="1586102891574">
+    <state width="914" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586179399030" />
+    <state width="914" height="410" key="GridCell.Tab.0.center" timestamp="1586179399029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="351" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586102891574" />
+    <state width="914" height="410" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586179399029" />
+    <state width="914" height="410" key="GridCell.Tab.0.left" timestamp="1586179399029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="410" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586179399029" />
+    <state width="914" height="410" key="GridCell.Tab.0.right" timestamp="1586179399029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="410" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586179399029" />
+    <state x="209" y="156" width="1448" height="851" key="SettingsEditor" timestamp="1586158316749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="209" y="156" width="1448" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586158316749" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586106887767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586106887767" />
+    <state x="502" y="351" key="new project wizard" timestamp="1586162472685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="351" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586162472685" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586001566201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
