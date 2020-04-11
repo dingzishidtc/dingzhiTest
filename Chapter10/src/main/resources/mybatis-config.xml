@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.course.model"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mapper/mysql.xml"/>
+        <!-- 连接配置文件 -->
+    </mappers>
+
+<!--    &lt;!&ndash; 数据库配置文件 &ndash;&gt;-->
+<!--    <properties resource="db.properties"/>-->
+<!--    &lt;!&ndash;-->
+<!--        development : 开发模式-->
+<!--        work : 工作模式-->
+<!--     &ndash;&gt;-->
+<!--    <environments default="development">-->
+<!--        <environment id="development">-->
+<!--            <transactionManager type="JDBC" />-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${driver}" />-->
+<!--                <property name="url" value="${url}" />-->
+<!--                <property name="username" value="${name}" />-->
+<!--                <property name="password" value="${password}" />-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+</configuration>

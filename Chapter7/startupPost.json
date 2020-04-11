@@ -1,0 +1,32 @@
+[
+  {
+    "description": "模拟一个post",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "第一个moco的post请求"
+    }
+  },
+  {
+    "description": "带参数的post",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "dingzhi",
+        "age": "18"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "带参数的post请求"
+    }
+  }
+]

@@ -1,2 +1,7 @@
 -c后面是需要在路径，同目录可不带路径
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startupGet.json
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startup1.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startupPost.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startupwithCookies.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startupWithHeader.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 4396 -c startupWithRedirect.json

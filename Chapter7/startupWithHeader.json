@@ -1,0 +1,47 @@
+[
+  {
+    "description": "带cookies的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "登录成功"
+    }
+  },
+
+
+
+  {
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+
+      "headers": {"content-type": "application/json"},
+
+      "cookies": {"login": "true"},
+
+      "json": {
+        "name": "dingzhi",
+        "age": "18"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "status": 200,
+      "json": {
+        "huhansan": "success",
+        "status": "1"
+      }
+    }
+  }
+]

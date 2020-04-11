@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<mapper namespace="com.course">
+<!--    通过下面的id来定位要执行的sql语句-->
+    <select id="getUserCount" resultType="Integer">
+        select count (*) from user;
+    </select>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="616" started-at="2020-04-09T01:52:53 CST" finished-at="2020-04-09T01:52:53 CST">
+    <groups>
+    </groups>
+    <test name="dingzhiTest" duration-ms="616" started-at="2020-04-09T01:52:53 CST" finished-at="2020-04-09T01:52:53 CST">
+      <class name="com.course.httpclient.cookies.MyCookiesForPost">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.httpclient.cookies.MyCookiesForPost@100fc185]" name="beforeTest" is-config="true" duration-ms="9" started-at="2020-04-09T01:52:53 CST" finished-at="2020-04-09T01:52:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testPostCookies()[pri:0, instance:com.course.httpclient.cookies.MyCookiesForPost@100fc185]" name="testPostCookies" duration-ms="566" started-at="2020-04-09T01:52:53 CST" finished-at="2020-04-09T01:52:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostCookies -->
+        <test-method status="PASS" signature="testPostMethod()[pri:0, instance:com.course.httpclient.cookies.MyCookiesForPost@100fc185]" name="testPostMethod" duration-ms="12" started-at="2020-04-09T01:52:53 CST" depends-on-methods="com.course.httpclient.cookies.MyCookiesForPost.testPostCookies" finished-at="2020-04-09T01:52:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMethod -->
+      </class> <!-- com.course.httpclient.cookies.MyCookiesForPost -->
+    </test> <!-- dingzhiTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>
