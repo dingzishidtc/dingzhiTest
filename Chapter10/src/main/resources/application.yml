@@ -1,5 +1,6 @@
 server:
   port: 8888
+
 logging:
   path: logs
   file: mylog.log
@@ -8,8 +9,8 @@ spring:
   application:
     name: myTest
   datasource:
-    driver-class-name: mysql.jdba.Driver
-    url: jdbc:mysql:192.168.1.7:3306/localhost
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.7:3306/test
     username: test
     password: 123
 mybatis:

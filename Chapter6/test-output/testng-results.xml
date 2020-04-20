@@ -5,12 +5,12 @@
       <![CDATA[自己写的日志]]>
     </line>
   </reporter-output>
-  <suite name="丁枝的接口测试套件" duration-ms="26" started-at="2020-04-06T08:00:32Z" finished-at="2020-04-06T08:00:32Z">
+  <suite name="丁枝的接口测试套件" duration-ms="21" started-at="2020-04-16T16:58:27Z" finished-at="2020-04-16T16:58:27Z">
     <groups>
     </groups>
-    <test name="丁枝的测试模块" duration-ms="26" started-at="2020-04-06T08:00:32Z" finished-at="2020-04-06T08:00:32Z">
+    <test name="丁枝的测试模块" duration-ms="21" started-at="2020-04-16T16:58:27Z" finished-at="2020-04-16T16:58:27Z">
       <class name="com.tester.extent.demo.TestMethodDemo">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@1ae369b7]" name="test1" duration-ms="6" started-at="2020-04-06T16:00:32Z" finished-at="2020-04-06T16:00:32Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@34340fab]" name="test1" duration-ms="5" started-at="2020-04-17T00:58:27Z" finished-at="2020-04-17T00:58:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [23333] but found [1]]]>
@@ -54,15 +54,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@1ae369b7]" name="test3" duration-ms="1" started-at="2020-04-06T16:00:32Z" finished-at="2020-04-06T16:00:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@1ae369b7]" name="test2" duration-ms="0" started-at="2020-04-06T16:00:32Z" finished-at="2020-04-06T16:00:32Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@34340fab]" name="test2" duration-ms="0" started-at="2020-04-17T00:58:27Z" finished-at="2020-04-17T00:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="FAIL" signature="logDemo()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@1ae369b7]" name="logDemo" duration-ms="0" started-at="2020-04-06T16:00:32Z" finished-at="2020-04-06T16:00:32Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@34340fab]" name="test3" duration-ms="1" started-at="2020-04-17T00:58:27Z" finished-at="2020-04-17T00:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="FAIL" signature="logDemo()[pri:0, instance:com.tester.extent.demo.TestMethodDemo@34340fab]" name="logDemo" duration-ms="0" started-at="2020-04-17T00:58:27Z" finished-at="2020-04-17T00:58:27Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[这是自己的运行异常]]>

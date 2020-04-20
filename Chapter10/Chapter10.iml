@@ -2,7 +2,19 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/course/Application.java</file>
+          <file>jar://$MAVEN_REPOSITORY$/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar!/springfox/documentation/schema/configuration/ModelsConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/SpringfoxWebMvcConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar!/springfox/documentation/swagger/configuration/SwaggerCommonConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar!/springfox/documentation/swagger2/configuration/Swagger2DocumentationConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="web" name="Web">
       <configuration>
@@ -85,11 +97,6 @@
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.1" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.15" level="project" />
-    <orderEntry type="library" name="Maven: javax.mail:mail:1.4" level="project" />
-    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
-    <orderEntry type="library" name="Maven: javax.jms:jms:1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jdmk:jmxtools:1.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jmx:jmxri:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>

@@ -1,0 +1,10 @@
+2020-04-20 01:06:51.255 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询到的结果1是1
+2020-04-20 01:06:51.260 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询到的用户是User(id=0, userName=loginuser111, password=3, age=null, sex=null, permission=null, isDelete=null)
+2020-04-20 01:06:51.260 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询到的结果2是loginuser111
+2020-04-20 01:06:51.298 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2020-04-20 01:06:51.301 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-04-20 01:08:37.530 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询到的结果1是1
+2020-04-20 01:08:37.532 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询到的用户是User(id=0, userName=loginuser111, password=3, age=null, sex=null, permission=null, isDelete=null)
+2020-04-20 01:08:37.532 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询到的结果2是loginuser111
+2020-04-20 01:08:37.569 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2020-04-20 01:08:37.571 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1

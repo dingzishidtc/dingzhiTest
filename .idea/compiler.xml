@@ -2,10 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Chapter13" />
+        <module name="Chapter11" />
         <module name="Chapter10" />
         <module name="Chapter9" />
         <module name="Chapter8" />
@@ -16,6 +19,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter10" target="1.8" />
+      <module name="Chapter11" target="1.6" />
+      <module name="Chapter12" target="1.8" />
+      <module name="Chapter13" target="1.8" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="6" />
       <module name="Chapter7" target="1.5" />
@@ -27,6 +33,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Chapter10" options="-parameters" />
+      <module name="Chapter11" options="" />
+      <module name="Chapter12" options="-parameters" />
+      <module name="Chapter13" options="-extdirs &quot;E:\Program Files (x86)\Git\workspace\dingzhi\dingzhiTest\Chapter13/lib&quot;" />
       <module name="Chapter8" options="-parameters" />
       <module name="Chapter9" options="-parameters" />
     </option>
